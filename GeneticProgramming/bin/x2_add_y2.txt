@@ -1,0 +1,25 @@
+allowed functions are: ADD SUB MUL DIV SQRT POW LN SIN COS
+# set which functions to use:
+
+ADD MUL SUB DIV
+
+# looking for:
+
+f(x, y) - ?
+
+# define training set:
+
+f(1, 1) = 2
+f(1, 2) = 5
+f(5, 5) = 50
+f(-5, 5) = 50
+f(5, -5) = 50
+f(-5, -5) = 50
+f(10, 10) = 200
+f(-10, 10) = 200
+f(10, -10) = 200
+f(-10, -10) = 200
+f(0, 0) = 0
+f(0, 5) = 25
+f(5, 0) = 25
+f(3, 3) = 18
